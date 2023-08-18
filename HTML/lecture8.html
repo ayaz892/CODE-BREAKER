@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+
+    <style>
+
+        ul{
+           overflow: hidden;
+           background-color: black;
+           list-style-type: none;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a{
+            display: block;
+            padding: 14px 10px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+
+        li a:hover:not(.active)
+        {
+            background-color: blue;
+
+        }
+        .active{
+            background-color: green;
+        }
+        label{
+
+            color: white;
+            padding: 14px 16px;
+           
+
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="">Entertainment</a></li>
+        <li style="float: right;"><a  class="active">About</a></li>
+        <label for="text">Search</label>
+        <li><input type="text"></li>
+
+
+
+
+
+    </ul>
+    
+
+
+</body>
+</html>
