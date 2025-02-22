@@ -1,3 +1,7 @@
+#The roles of the range(start, stop, step) function parameters are:
+
+
+
 # This loop iterates on the value of the "n" variable in a range
 # of 0 to 10 (the value of the end-of-range index 11 is excluded).
 # The incremental value for the loop is 2. The print() function will 
